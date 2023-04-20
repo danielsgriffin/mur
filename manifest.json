@@ -1,0 +1,19 @@
+{
+  "name": "Mur",
+  "description": "MUR - Making users responsible - search help guides and hints.",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*"],
+      "css": ["mur.css"],
+      "js": ["mur.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/mur-icon-16.png",
+    "32": "images/mur-icon-32.png",
+    "48": "images/mur-icon-48.png",
+    "128": "images/mur-icon-128.png"
+  }
+}
